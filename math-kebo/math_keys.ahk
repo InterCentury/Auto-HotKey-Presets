@@ -1,6 +1,5 @@
 ; =====================================
-; 🔥 POWER MODE (LETTER SUPERSCRIPT MODE)
-; Toggle: Right Alt + Right Ctrl
+; 🔥 HOLD RIGHT ALT = POWER MODE
 ; =====================================
 
 #NoEnv
@@ -8,29 +7,19 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 
-powerMode := false
-
 
 ; ================================
-; 🔘 TOGGLE KEY (RAlt + RCtrl)
-; ================================
-RAlt & RCtrl::
-powerMode := !powerMode
-return
-
-
-; ================================
-; 🚫 BLOCK RCTRL IN VS CODE
+; 🚫 BLOCK RALT IN VS CODE (optional)
 ; ================================
 #IfWinActive ahk_exe Code.exe
-RCtrl::Return
+RAlt::Return
 #IfWinActive
 
 
 ; ================================
-; 🔤 POWER MODE LETTERS (a–z)
+; 🔤 POWER MODE (while holding RAlt)
 ; ================================
-#If powerMode
+#If GetKeyState("RAlt", "P")
 
 a::Send {U+1D43}   ; ᵃ
 b::Send {U+1D47}   ; ᵇ
@@ -49,10 +38,9 @@ n::Send {U+207F}   ; ⁿ
 o::Send {U+1D52}   ; ᵒ
 p::Send {U+1D56}   ; ᵖ
 
-; 🔥 BEST POSSIBLE Q SUBSTITUTE
-q::Send {U+1D60}   ; ᵠ (closest match)
+q::Send {U+1D60}   ; ᵠ (best substitute)
 
-r::Send {U+02B3}   ; ʳ 
+r::Send {U+02B3}   ; ʳ
 s::Send {U+02E2}   ; ˢ
 t::Send {U+1D57}   ; ᵗ
 u::Send {U+1D58}   ; ᵘ
