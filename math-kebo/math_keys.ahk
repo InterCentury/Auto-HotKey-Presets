@@ -1,6 +1,6 @@
 ; =====================================
-; RIGHT ALT MATH SYSTEM (FULL BULLETPROOF)
-; NO ENCODING ISSUES ANYWHERE
+; 🔥 POWER MODE (LETTER SUPERSCRIPT MODE)
+; Toggle: Right Alt + Right Ctrl
 ; =====================================
 
 #NoEnv
@@ -8,79 +8,59 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 
+powerMode := false
+
 
 ; ================================
-; 🚫 BLOCK RIGHT ALT IN VS CODE
+; 🔘 TOGGLE KEY (RAlt + RCtrl)
+; ================================
+RAlt & RCtrl::
+powerMode := !powerMode
+return
+
+
+; ================================
+; 🚫 BLOCK RCTRL IN VS CODE
 ; ================================
 #IfWinActive ahk_exe Code.exe
-RAlt::Return
+RCtrl::Return
 #IfWinActive
 
 
 ; ================================
-; 🔢 POWERS (SAFE)
+; 🔤 POWER MODE LETTERS (a–z)
+; Only works when powerMode = true
 ; ================================
-RAlt & 0::Send {U+2070}
-RAlt & 1::Send {U+00B9}
-RAlt & 2::Send {U+00B2}
-RAlt & 3::Send {U+00B3}
-RAlt & 4::Send {U+2074}
-RAlt & 5::Send {U+2075}
-RAlt & 6::Send {U+2076}
-RAlt & 7::Send {U+2077}
-RAlt & 8::Send {U+2078}
-RAlt & 9::Send {U+2079}
+#If powerMode
 
+a::Send {U+1D43}   ; ᵃ
+b::Send {U+1D47}   ; ᵇ
+c::Send {U+1D9C}   ; ᶜ
+d::Send {U+1D48}   ; ᵈ
+e::Send {U+1D49}   ; ᵉ
+f::Send {U+1DA0}   ; ᶠ
+g::Send {U+1D4D}   ; ᵍ
+h::Send {U+02B0}   ; ʰ
+i::Send {U+2071}   ; ⁱ
+j::Send {U+02B2}   ; ʲ
+k::Send {U+1D4F}   ; ᵏ
+l::Send {U+02E1}   ; ˡ
+m::Send {U+1D50}   ; ᵐ
+n::Send {U+207F}   ; ⁿ
+o::Send {U+1D52}   ; ᵒ
+p::Send {U+1D56}   ; ᵖ
+q::Send q          ; ❌ not available
+r::Send {U+02B3}   ; ʳ
+s::Send {U+02E2}   ; ˢ
+t::Send {U+1D57}   ; ᵗ
+u::Send {U+1D58}   ; ᵘ
+v::Send {U+1D5B}   ; ᵛ
+w::Send {U+02B7}   ; ʷ
+x::Send {U+02E3}   ; ˣ
+y::Send {U+02B8}   ; ʸ
+z::Send {U+1DBB}   ; ᶻ
 
-; ================================
-; 📐 BASIC MATH
-; ================================
-RAlt & s::Send {U+221A}   ; √
-RAlt & i::Send {U+221E}   ; ∞
-RAlt & e::Send {U+2211}   ; ∑
-RAlt & p::Send {U+03C0}   ; π
-RAlt & n::Send {U+2202}   ; ∂
-
-
-; ================================
-; 🔤 GREEK LETTERS (FIXED)
-; ================================
-RAlt & a::Send {U+03B1}   ; α
-RAlt & b::Send {U+03B2}   ; β
-RAlt & g::Send {U+03B3}   ; γ
-RAlt & d::Send {U+03B4}   ; δ
-RAlt & t::Send {U+03B8}   ; θ
-RAlt & l::Send {U+03BB}   ; λ
-RAlt & m::Send {U+03BC}   ; μ
-RAlt & o::Send {U+03C9}   ; ω
-RAlt & r::Send {U+03C1}   ; ρ
-RAlt & z::Send {U+03B6}   ; ζ
-
-
-; ================================
-; ⚡ SPECIAL SYMBOLS
-; ================================
-RAlt & x::Send {U+2206}   ; ∆
-RAlt & u::Send {U+00B1}   ; ±
-RAlt & c::Send {U+00B0}   ; °
-RAlt & q::Send {U+03C3}   ; σ
-
-
-; ================================
-; ➗ OPERATORS
-; ================================
-RAlt & -::Send {U+2212}
-RAlt & =::Send {U+2260}
-RAlt & ,::Send {U+2264}
-RAlt & .::Send {U+2265}
-RAlt & /::Send {U+00F7}
-RAlt & *::Send {U+00D7}
-
-
-; ================================
-; ⚡ QUICK POWER
-; ================================
-RAlt & w::Send {U+00B3}
+#If
 
 
 ; =====================================
