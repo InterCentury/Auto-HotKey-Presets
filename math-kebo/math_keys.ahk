@@ -1,11 +1,11 @@
 ; =====================================
-; RIGHT ALT (AltGr) MATH KEYBOARD SYSTEM
-; CLEAN + CONFLICT-FREE + VS CODE SAFE
+; RIGHT ALT MATH SYSTEM (STABLE VERSION)
+; NO ALTGR CONFLICTS
 ; =====================================
 
 
 ; ================================
-; 🚫 BLOCK RIGHT ALT IN VS CODE (OPTIONAL BUT RECOMMENDED)
+; 🚫 DISABLE RIGHT ALT IN VS CODE
 ; ================================
 #IfWinActive ahk_exe Code.exe
 RAlt::Return
@@ -15,69 +15,69 @@ RAlt::Return
 ; ================================
 ; 🔢 POWERS (0–9)
 ; ================================
-<^>!0::Send ⁰
-<^>!1::Send ¹
-<^>!2::Send ²
-<^>!3::Send ³
-<^>!4::Send ⁴
-<^>!5::Send ⁵
-<^>!6::Send ⁶
-<^>!7::Send ⁷
-<^>!8::Send ⁸
-<^>!9::Send ⁹
+RAlt & 0::Send ⁰
+RAlt & 1::Send ¹
+RAlt & 2::Send ²
+RAlt & 3::Send ³
+RAlt & 4::Send ⁴
+RAlt & 5::Send ⁵
+RAlt & 6::Send ⁶
+RAlt & 7::Send ⁷
+RAlt & 8::Send ⁸
+RAlt & 9::Send ⁹
 
 
 ; ================================
 ; 📐 BASIC MATH
 ; ================================
-<^>!s::Send √
-<^>!i::Send ∞
-<^>!e::Send ∑
-<^>!p::Send π
-<^>!n::Send ∂
+RAlt & s::Send √
+RAlt & i::Send ∞
+RAlt & e::Send ∑
+RAlt & p::Send π
+RAlt & n::Send ∂
 
 
 ; ================================
 ; 🔤 GREEK LETTERS
 ; ================================
-<^>!a::Send α
-<^>!b::Send β
-<^>!g::Send γ
-<^>!d::Send δ
-<^>!t::Send θ
-<^>!l::Send λ
-<^>!m::Send μ
-<^>!o::Send ω
-<^>!r::Send ρ
-<^>!z::Send ζ
+RAlt & a::Send α
+RAlt & b::Send β
+RAlt & g::Send γ
+RAlt & d::Send δ
+RAlt & t::Send θ
+RAlt & l::Send λ
+RAlt & m::Send μ
+RAlt & o::Send ω
+RAlt & r::Send ρ
+RAlt & z::Send ζ
 
 
 ; ================================
 ; ⚡ SPECIAL SYMBOLS
 ; ================================
-<^>!x::Send ∆
-<^>!u::Send ±
-<^>!c::Send °
-<^>!q::Send σ
+RAlt & x::Send ∆
+RAlt & u::Send ±
+RAlt & c::Send °
+RAlt & q::Send σ
 
 
 ; ================================
 ; ➗ OPERATORS
 ; ================================
-<^>!-::Send −
-<^>!=::Send ≠
-<^>!,::Send ≤
-<^>!.::Send ≥
-<^>!/::Send ÷
-<^>!*::Send ×
+RAlt & -::Send −
+RAlt & =::Send ≠
+RAlt & ,::Send ≤
+RAlt & .::Send ≥
+RAlt & /::Send ÷
+RAlt & *::Send ×
 
 
 ; ================================
-; ⚡ QUICK FORM
+; ⚡ QUICK POWER
 ; ================================
-<^>!w::Send ³
+RAlt & w::Send ³
 
 
 ; =====================================
-; END OF SYSTEM
+; END
 ; =====================================
