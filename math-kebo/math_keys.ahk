@@ -49,7 +49,7 @@ m::Send {U+1D50}   ; ᵐ
 n::Send {U+207F}   ; ⁿ
 o::Send {U+1D52}   ; ᵒ
 p::Send {U+1D56}   ; ᵖ
-q::Send q          ; ❌ not available
+q::Send {U+02B9}   ; ʹ (looks small-ish)
 r::Send {U+02B3}   ; ʳ
 s::Send {U+02E2}   ; ˢ
 t::Send {U+1D57}   ; ᵗ
