@@ -1,6 +1,6 @@
 # RIGHT ALT (AltGr) MATH CHEAT SHEET
 
-## POWERS (exponents)
+### POWERS (exponents)
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
@@ -10,7 +10,7 @@
 | AltGr + 3 | ³      |   | AltGr + 8 | ⁸      |
 | AltGr + 4 | ⁴      |   | AltGr + 9 | ⁹      |
 
-## BASIC MATH SYMBOLS
+### BASIC MATH SYMBOLS
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
@@ -18,7 +18,7 @@
 | AltGr + e | ∑      |   | AltGr + p | π      |
 | AltGr + n | ∂      |   |           |        |
 
-## GREEK LETTERS
+### GREEK LETTERS
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
@@ -28,14 +28,14 @@
 | AltGr + d | δ      |   | AltGr + r | ρ      |
 | AltGr + t | θ      |   | AltGr + z | ζ      |
 
-## SPECIAL SYMBOLS
+### SPECIAL SYMBOLS
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
 | AltGr + x | ∆      |   | AltGr + u | ±      |
 | AltGr + q | σ      |   | AltGr + c | °      |
 
-## OPERATORS
+### OPERATORS
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
@@ -43,13 +43,13 @@
 | AltGr + * | ×      |   | AltGr + = | ≠      |
 | AltGr + , | ≤      |   | AltGr + . | ≥      |
 
-## QUICK REFERENCE
+### QUICK REFERENCE
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
 | AltGr + w | ³      |   |           |        |
 
-## MEMORY TRICKS
+### MEMORY TRICKS
 
 | Letter | Greek |   | Letter | Greek |
 | ------ | ----- | - | ------ | ----- |
@@ -61,7 +61,7 @@ Numbers = powers (x², x³...)
 Letters = Greek symbols (θ, α, β...)
 Symbols = math logic (≤, ≠, ÷...)
 
-## MINI MEMORY TRICK
+### MINI MEMORY TRICK
 
 * A = alpha
 * T = theta
