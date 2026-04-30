@@ -29,7 +29,6 @@ RCtrl::Return
 
 ; ================================
 ; 🔤 POWER MODE LETTERS (a–z)
-; Only works when powerMode = true
 ; ================================
 #If powerMode
 
@@ -49,7 +48,10 @@ m::Send {U+1D50}   ; ᵐ
 n::Send {U+207F}   ; ⁿ
 o::Send {U+1D52}   ; ᵒ
 p::Send {U+1D56}   ; ᵖ
-q::Send {U+02B9}   ; ʹ (looks small-ish)
+
+; 🔥 BEST POSSIBLE Q SUBSTITUTE
+q::Send {U+1D60}   ; ᵠ (closest match)
+
 r::Send {U+02B3}   ; ʳ
 s::Send {U+02E2}   ; ˢ
 t::Send {U+1D57}   ; ᵗ
