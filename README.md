@@ -2,11 +2,11 @@
 
 A collection of AutoHotkey string expansions and keyboard shortcuts for everything — math symbols, emojis, code snippets, typography, dates, email signatures, and custom text replacements.
 
-## Purpose
+### Purpose
 
 Stop typing the same things over and over. This repo lets you turn short text triggers into longer output, and turn key combinations into special characters.
 
-## What's Inside
+### What's Inside
 
 - Math symbols and Greek letters (AltGr shortcuts)
 - Emoji and kaomoji expansions
@@ -17,14 +17,14 @@ Stop typing the same things over and over. This repo lets you turn short text tr
 - Auto-corrections for common typos
  
 
-## Who It's For
+### Who It's For
 
 Anyone who types a lot — writers, programmers, students, note-takers, or anyone tired of copy-pasting the same things.
 
-## File Structure
+### File Structure
 
 The repo is organized by category (math.ahk, emoji.ahk, dates.ahk, etc.), making it easy to grab what you need and add your own.
 
-## License
+### License
 
 MIT — use freely, share openly.
