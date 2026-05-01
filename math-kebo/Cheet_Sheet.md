@@ -1,4 +1,8 @@
-# RIGHT ALT (AltGr) POWER MODE CHEAT SHEET
+# RIGHT ALT + RIGHT CTRL MATH CHEAT SHEET
+
+---
+
+## 🔥 POWER MODE (RAlt)
 
 ### POWERS (exponents)
 
@@ -30,20 +34,64 @@
 | RAlt + l  | ˡ      |   | RAlt + y  | ʸ      |
 | RAlt + m  | ᵐ      |   | RAlt + z  | ᶻ      |
 
-* q uses closest available substitute (no true superscript exists)
+* q uses closest available substitute
 
 ---
 
-### CORE IDEA
+## ⚡ MATH SYMBOL MODE (RCtrl)
 
-* Numbers → powers (², ³, ⁴…)
-* Letters → superscript letters (ᵃ, ᵇ, ᶜ…)
-* Hold **Right Alt** → activate power mode
+### BASIC MATH SYMBOLS
+
+| Key combo | Output |   | Key combo | Output |
+| --------- | ------ | - | --------- | ------ |
+| RCtrl + s | √      |   | RCtrl + i | ∞      |
+| RCtrl + e | ∑      |   | RCtrl + p | π      |
+| RCtrl + n | ∂      |   |           |        |
 
 ---
 
-### MINI MEMORY TRICK
+### GREEK LETTERS
 
-* Numbers = instant exponents
-* Letters = variable powers
-* Hold RAlt = “power typing mode” 
+| Key combo | Output |   | Key combo | Output |
+| --------- | ------ | - | --------- | ------ |
+| RCtrl + a | α      |   | RCtrl + l | λ      |
+| RCtrl + b | β      |   | RCtrl + m | μ      |
+| RCtrl + g | γ      |   | RCtrl + o | ω      |
+| RCtrl + d | δ      |   | RCtrl + r | ρ      |
+| RCtrl + t | θ      |   | RCtrl + z | ζ      |
+
+---
+
+### SPECIAL SYMBOLS
+
+| Key combo | Output |   | Key combo | Output |
+| --------- | ------ | - | --------- | ------ |
+| RCtrl + x | ∆      |   | RCtrl + u | ±      |
+| RCtrl + q | σ      |   | RCtrl + c | °      |
+
+---
+
+### OPERATORS
+
+| Key combo | Output |   | Key combo | Output |
+| --------- | ------ | - | --------- | ------ |
+| RCtrl + / | ÷      |   | RCtrl + - | −      |
+| RCtrl + * | ×      |   | RCtrl + = | ≠      |
+| RCtrl + , | ≤      |   | RCtrl + . | ≥      |
+
+---
+
+###  CORE IDEA
+
+* **RAlt → Power mode (exponents & superscripts)**
+* **RCtrl → Math symbols & Greek letters**
+
+---
+
+###  MINI MEMORY TRICK
+
+* Numbers → powers
+* Letters (RAlt) → superscripts
+* Letters (RCtrl) → Greek/math
+* RAlt = power 
+* RCtrl = math 
