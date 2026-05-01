@@ -52,7 +52,7 @@ p::Send {U+1D56}   ; ᵖ
 ; 🔥 BEST POSSIBLE Q SUBSTITUTE
 q::Send {U+1D60}   ; ᵠ (closest match)
 
-r::Send {U+02B3}   ; ʳ
+r::Send {U+02B3}   ; ʳ 
 s::Send {U+02E2}   ; ˢ
 t::Send {U+1D57}   ; ᵗ
 u::Send {U+1D58}   ; ᵘ
