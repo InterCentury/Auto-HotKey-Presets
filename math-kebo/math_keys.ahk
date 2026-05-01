@@ -1,7 +1,7 @@
 ; =====================================
-; 🔥 RIGHT ALT = PURE POWER KEY (FIXED)
-; Letters + Numbers → Superscript
-; Works in VS Code
+; RIGHT ALT + RIGHT CTRL MATH SYSTEM
+; RAlt = power mode
+; RCtrl = math symbol mode
 ; =====================================
 
 #NoEnv
@@ -9,16 +9,11 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 
-; ================================
-; 🔧 FIX ALTGR (IMPORTANT)
-; ================================
-RAlt::return
-<^>!::return   ; kills Ctrl+Alt (AltGr)
 
+; =====================================
+; RALT = SUPERSCRIPT / POWER MODE
+; =====================================
 
-; ================================
-; 🔤 LETTERS (RAlt + key)
-; ================================
 RAlt & a::Send {U+1D43}
 RAlt & b::Send {U+1D47}
 RAlt & c::Send {U+1D9C}
@@ -46,10 +41,6 @@ RAlt & x::Send {U+02E3}
 RAlt & y::Send {U+02B8}
 RAlt & z::Send {U+1DBB}
 
-
-; ================================
-; 🔢 NUMBERS (RAlt + key)
-; ================================
 RAlt & 0::Send {U+2070}
 RAlt & 1::Send {U+00B9}
 RAlt & 2::Send {U+00B2}
@@ -60,6 +51,41 @@ RAlt & 6::Send {U+2076}
 RAlt & 7::Send {U+2077}
 RAlt & 8::Send {U+2078}
 RAlt & 9::Send {U+2079}
+
+
+; =====================================
+; RCTRL = MATH SYMBOL MODE
+; =====================================
+
+RCtrl & a::Send {U+03B1}   ; α
+RCtrl & b::Send {U+03B2}   ; β
+RCtrl & g::Send {U+03B3}   ; γ
+RCtrl & d::Send {U+03B4}   ; δ
+RCtrl & t::Send {U+03B8}   ; θ
+RCtrl & l::Send {U+03BB}   ; λ
+RCtrl & m::Send {U+03BC}   ; μ
+RCtrl & o::Send {U+03C9}   ; ω
+RCtrl & r::Send {U+03C1}   ; ρ
+RCtrl & z::Send {U+03B6}   ; ζ
+
+RCtrl & s::Send {U+221A}   ; √
+RCtrl & i::Send {U+221E}   ; ∞
+RCtrl & e::Send {U+2211}   ; ∑
+RCtrl & p::Send {U+03C0}   ; π
+RCtrl & n::Send {U+2202}   ; ∂
+
+RCtrl & x::Send {U+2206}   ; ∆
+RCtrl & u::Send {U+00B1}   ; ±
+RCtrl & c::Send {U+00B0}   ; °
+RCtrl & q::Send {U+03C3}   ; σ
+
+RCtrl & -::Send {U+2212}
+RCtrl & =::Send {U+2260}
+RCtrl & ,::Send {U+2264}
+RCtrl & .::Send {U+2265}
+RCtrl & /::Send {U+00F7}
+RCtrl & *::Send {U+00D7}
+
 
 ; =====================================
 ; END
