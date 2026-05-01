@@ -90,8 +90,9 @@
 
 ###  MINI MEMORY TRICK
 
-* Numbers → powers
-* Letters (RAlt) → superscripts
+* RAlt + Numbers → powers
+* RAlt + Letters  → superscripts
 * Letters (RCtrl) → Greek/math
+---
 * RAlt = power 
-* RCtrl = math 
+* RCtrl = math symbols
