@@ -1,6 +1,7 @@
 ; =====================================
-; HOLD RIGHT ALT = FULL POWER MODE
+; 🔥 RIGHT ALT = PURE POWER KEY (FIXED)
 ; Letters + Numbers → Superscript
+; Works in VS Code
 ; =====================================
 
 #NoEnv
@@ -8,56 +9,57 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%
 
+; ================================
+; 🔧 FIX ALTGR (IMPORTANT)
+; ================================
+RAlt::return
+<^>!::return   ; kills Ctrl+Alt (AltGr)
+
 
 ; ================================
-; 🔤 + 🔢 POWER MODE (RAlt held)
+; 🔤 LETTERS (RAlt + key)
 ; ================================
-#If GetKeyState("RAlt", "P")
+RAlt & a::Send {U+1D43}
+RAlt & b::Send {U+1D47}
+RAlt & c::Send {U+1D9C}
+RAlt & d::Send {U+1D48}
+RAlt & e::Send {U+1D49}
+RAlt & f::Send {U+1DA0}
+RAlt & g::Send {U+1D4D}
+RAlt & h::Send {U+02B0}
+RAlt & i::Send {U+2071}
+RAlt & j::Send {U+02B2}
+RAlt & k::Send {U+1D4F}
+RAlt & l::Send {U+02E1}
+RAlt & m::Send {U+1D50}
+RAlt & n::Send {U+207F}
+RAlt & o::Send {U+1D52}
+RAlt & p::Send {U+1D56}
+RAlt & q::Send {U+1D60}
+RAlt & r::Send {U+02B3}
+RAlt & s::Send {U+02E2}
+RAlt & t::Send {U+1D57}
+RAlt & u::Send {U+1D58}
+RAlt & v::Send {U+1D5B}
+RAlt & w::Send {U+02B7}
+RAlt & x::Send {U+02E3}
+RAlt & y::Send {U+02B8}
+RAlt & z::Send {U+1DBB}
 
-; -------- LETTERS --------
-a::Send {U+1D43}
-b::Send {U+1D47}
-c::Send {U+1D9C}
-d::Send {U+1D48}
-e::Send {U+1D49}
-f::Send {U+1DA0}
-g::Send {U+1D4D}
-h::Send {U+02B0}
-i::Send {U+2071}
-j::Send {U+02B2}
-k::Send {U+1D4F}
-l::Send {U+02E1}
-m::Send {U+1D50}
-n::Send {U+207F}
-o::Send {U+1D52}
-p::Send {U+1D56}
 
-q::Send {U+1D60}   ; best possible substitute
-
-r::Send {U+02B3}
-s::Send {U+02E2}
-t::Send {U+1D57}
-u::Send {U+1D58}
-v::Send {U+1D5B}
-w::Send {U+02B7}
-x::Send {U+02E3}
-y::Send {U+02B8}
-z::Send {U+1DBB}
-
-; -------- NUMBERS --------
-0::Send {U+2070}
-1::Send {U+00B9}
-2::Send {U+00B2}
-3::Send {U+00B3}
-4::Send {U+2074}
-5::Send {U+2075}
-6::Send {U+2076}
-7::Send {U+2077}
-8::Send {U+2078}
-9::Send {U+2079}
-
-#If
-
+; ================================
+; 🔢 NUMBERS (RAlt + key)
+; ================================
+RAlt & 0::Send {U+2070}
+RAlt & 1::Send {U+00B9}
+RAlt & 2::Send {U+00B2}
+RAlt & 3::Send {U+00B3}
+RAlt & 4::Send {U+2074}
+RAlt & 5::Send {U+2075}
+RAlt & 6::Send {U+2076}
+RAlt & 7::Send {U+2077}
+RAlt & 8::Send {U+2078}
+RAlt & 9::Send {U+2079}
 
 ; =====================================
 ; END
