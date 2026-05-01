@@ -1,70 +1,49 @@
-# RIGHT ALT (AltGr) MATH CHEAT SHEET
+# RIGHT ALT (AltGr) POWER MODE CHEAT SHEET
 
 ### POWERS (exponents)
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
-| AltGr + 0 | ⁰      |   | AltGr + 5 | ⁵      |
-| AltGr + 1 | ¹      |   | AltGr + 6 | ⁶      |
-| AltGr + 2 | ²      |   | AltGr + 7 | ⁷      |
-| AltGr + 3 | ³      |   | AltGr + 8 | ⁸      |
-| AltGr + 4 | ⁴      |   | AltGr + 9 | ⁹      |
+| RAlt + 0  | ⁰      |   | RAlt + 5  | ⁵      |
+| RAlt + 1  | ¹      |   | RAlt + 6  | ⁶      |
+| RAlt + 2  | ²      |   | RAlt + 7  | ⁷      |
+| RAlt + 3  | ³      |   | RAlt + 8  | ⁸      |
+| RAlt + 4  | ⁴      |   | RAlt + 9  | ⁹      |
 
-### BASIC MATH SYMBOLS
+---
 
-| Key combo | Output |   | Key combo | Output |
-| --------- | ------ | - | --------- | ------ |
-| AltGr + s | √      |   | AltGr + i | ∞      |
-| AltGr + e | ∑      |   | AltGr + p | π      |
-| AltGr + n | ∂      |   |           |        |
-
-### GREEK LETTERS
+### LETTER POWERS (Superscript Letters)
 
 | Key combo | Output |   | Key combo | Output |
 | --------- | ------ | - | --------- | ------ |
-| AltGr + a | α      |   | AltGr + l | λ      |
-| AltGr + b | β      |   | AltGr + m | μ      |
-| AltGr + g | γ      |   | AltGr + o | ω      |
-| AltGr + d | δ      |   | AltGr + r | ρ      |
-| AltGr + t | θ      |   | AltGr + z | ζ      |
+| RAlt + a  | ᵃ      |   | RAlt + n  | ⁿ      |
+| RAlt + b  | ᵇ      |   | RAlt + o  | ᵒ      |
+| RAlt + c  | ᶜ      |   | RAlt + p  | ᵖ      |
+| RAlt + d  | ᵈ      |   | RAlt + q  | ᵠ*     |
+| RAlt + e  | ᵉ      |   | RAlt + r  | ʳ      |
+| RAlt + f  | ᶠ      |   | RAlt + s  | ˢ      |
+| RAlt + g  | ᵍ      |   | RAlt + t  | ᵗ      |
+| RAlt + h  | ʰ      |   | RAlt + u  | ᵘ      |
+| RAlt + i  | ⁱ      |   | RAlt + v  | ᵛ      |
+| RAlt + j  | ʲ      |   | RAlt + w  | ʷ      |
+| RAlt + k  | ᵏ      |   | RAlt + x  | ˣ      |
+| RAlt + l  | ˡ      |   | RAlt + y  | ʸ      |
+| RAlt + m  | ᵐ      |   | RAlt + z  | ᶻ      |
 
-### SPECIAL SYMBOLS
+* q uses closest available substitute (no true superscript exists)
 
-| Key combo | Output |   | Key combo | Output |
-| --------- | ------ | - | --------- | ------ |
-| AltGr + x | ∆      |   | AltGr + u | ±      |
-| AltGr + q | σ      |   | AltGr + c | °      |
+---
 
-### OPERATORS
+### CORE IDEA
 
-| Key combo | Output |   | Key combo | Output |
-| --------- | ------ | - | --------- | ------ |
-| AltGr + / | ÷      |   | AltGr + - | −      |
-| AltGr + * | ×      |   | AltGr + = | ≠      |
-| AltGr + , | ≤      |   | AltGr + . | ≥      |
+* Numbers → powers (², ³, ⁴…)
+* Letters → superscript letters (ᵃ, ᵇ, ᶜ…)
+* Hold **Right Alt** → activate power mode
 
-### QUICK REFERENCE
-
-| Key combo | Output |   | Key combo | Output |
-| --------- | ------ | - | --------- | ------ |
-| AltGr + w | ³      |   |           |        |
-
-### MEMORY TRICKS
-
-| Letter | Greek |   | Letter | Greek |
-| ------ | ----- | - | ------ | ----- |
-| A      | alpha |   | P      | pi    |
-| T      | theta |   | S      | sigma |
-| X      | delta |   |        |       |
-
-Numbers = powers (x², x³...)
-Letters = Greek symbols (θ, α, β...)
-Symbols = math logic (≤, ≠, ÷...)
+---
 
 ### MINI MEMORY TRICK
 
-* A = alpha
-* T = theta
-* P = pi
-* S = sigma
-* X = delta
+* Numbers = instant exponents
+* Letters = variable powers
+* Hold RAlt = “power typing mode” 
