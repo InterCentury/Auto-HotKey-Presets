@@ -79,7 +79,7 @@
 | RCtrl + * | ×      |   | RCtrl + = | ≠      |
 | RCtrl + , | ≤      |   | RCtrl + . | ≥      |
 
----
+--- 
 
 ###  CORE IDEA
 
