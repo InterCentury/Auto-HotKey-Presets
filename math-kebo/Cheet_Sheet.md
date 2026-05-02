@@ -79,20 +79,35 @@
 | RCtrl + * | ×      |   | RCtrl + = | ≠      |
 | RCtrl + , | ≤      |   | RCtrl + . | ≥      |
 
---- 
+---
 
-###  CORE IDEA
+### 📦 BOX DRAWING
+
+| Key combo | Output |   | Key combo | Output |
+| --------- | ------ | - | --------- | ------ |
+| RCtrl + 1 | ──     |   | RCtrl + 6 | ┘      |
+| RCtrl + 2 | │      |   | RCtrl + 7 | ┬      |
+| RCtrl + 3 | ┌      |   | RCtrl + 8 | ┴      |
+| RCtrl + 4 | ┐      |   | RCtrl + 9 | ├      |
+| RCtrl + 5 | └      |   | RCtrl + 0 | ┤      |
+
+---
+
+## 🧠 CORE IDEA
 
 * **RAlt → Power mode (exponents & superscripts)**
-* **RCtrl → Math symbols & Greek letters**
+* **RCtrl → Math symbols + Greek + box drawing**
 
 ---
 
-###  MINI MEMORY TRICK
+## 🧠 MINI MEMORY TRICK
 
 * RAlt + Numbers → powers
-* RAlt + Letters  → superscripts
-* Letters (RCtrl) → Greek/math
+* RAlt + Letters → superscripts
+* RCtrl + Letters → Greek/math
+* RCtrl + Numbers → box drawing
+
 ---
-* RAlt = power 
-* RCtrl = math symbols
+
+* RAlt = power ⚡
+* RCtrl = math + UI drawing 📐
