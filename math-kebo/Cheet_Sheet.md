@@ -1,10 +1,10 @@
-# RIGHT ALT + RIGHT CTRL MATH CHEAT SHEET
+## RIGHT ALT + RIGHT CTRL MATH CHEAT SHEET
 
----
 
-## 🔥 POWER MODE (RAlt)
 
-### POWERS (exponents)
+### 🔥 POWER MODE (RAlt)
+
+ **POWERS (exponents)**
 ```
 │ Key combo │ Output │ Key combo │ Output │
 │ --------- │ ------ │ --------- │ ------ │
@@ -16,7 +16,7 @@
 ```
 ---
 
-### LETTER POWERS (Superscript Letters)
+**LETTER POWERS (Superscript Letters)**
 ```
 │ Key combo │ Output │ Key combo │ Output │
 │ --------- │ ------ │ --------- │ ------ │
@@ -38,9 +38,9 @@
 ```
 ---
 
-## ⚡ MATH SYMBOL MODE (RCtrl)
+### ⚡ MATH SYMBOL MODE (RCtrl)
 
-### BASIC MATH SYMBOLS
+ **BASIC MATH SYMBOLS**
 ```
 │ Key combo │ Output │ Key combo │ Output │
 ───────────────────────────────────────────
@@ -50,7 +50,7 @@
 ```
 ---
 
-### GREEK LETTERS
+**GREEK LETTERS**
 ```
 │ Key combo │ Output │ Key combo │ Output │
 │ --------- │ ------ │ --------- │ ------ │
@@ -62,7 +62,7 @@
 ```
 ---
 
-### SPECIAL SYMBOLS
+**SPECIAL SYMBOLS**
 ```
 │ Key combo │ Output │ Key combo │ Output │
 │ --------- │ ------ │ --------- │ ------ │
@@ -71,7 +71,7 @@
 ```
 ---
 
-### OPERATORS
+**OPERATORS**
 ```
 │ Key combo │ Output │Key combo │ Output │
 │ --------- │ ------ │--------- │ ------ │
@@ -81,7 +81,7 @@
 ```
 ---
 
-### 📦 BOX DRAWING
+**BOX DRAWING**
 ```
 │Key combo│Output│Key combo│Output│
 │---------│------│---------│------│
