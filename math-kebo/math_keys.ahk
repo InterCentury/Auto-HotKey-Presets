@@ -79,12 +79,43 @@ RCtrl & u::Send {U+00B1}   ; ±
 RCtrl & c::Send {U+00B0}   ; °
 RCtrl & q::Send {U+03C3}   ; σ
 
-RCtrl & -::Send {U+2212}
-RCtrl & =::Send {U+2260}
-RCtrl & ,::Send {U+2264}
-RCtrl & .::Send {U+2265}
-RCtrl & /::Send {U+00F7}
-RCtrl & *::Send {U+00D7}
+RCtrl & -::Send {U+2212}   ;
+RCtrl & =::Send {U+2260}   ;
+RCtrl & ,::Send {U+2264}   ;
+RCtrl & .::Send {U+2265}   ;
+RCtrl & /::Send {U+00F7}   ;
+RCtrl & *::Send {U+00D7}   ;
+
+
+
+
+; ================================
+; 📦 BOX DRAWING (RCtrl + numbers)
+; ================================
+
+RCtrl & 1::Send {U+2500}{U+2500}   ; ──
+RCtrl & 2::Send {U+2502}           ; │
+
+RCtrl & 3::Send {U+250C}           ; ┌
+RCtrl & 4::Send {U+2510}           ; ┐
+RCtrl & 5::Send {U+2514}           ; └
+RCtrl & 6::Send {U+2518}           ; ┘
+
+RCtrl & 7::Send {U+252C}           ; ┬
+RCtrl & 8::Send {U+2534}           ; ┴
+RCtrl & 9::Send {U+251C}           ; ├
+RCtrl & 0::Send {U+2524}           ; ┤
+
+
+
+
+
+
+
+
+
+
+
 
 
 ; =====================================
